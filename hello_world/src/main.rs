@@ -3,6 +3,9 @@ fn main() {
     println!("{}", get_is_even(101));
     println!("{}", is_palindrone("racecar"));
     println!("{}", is_palindrone("notApalidrone"));
+    println!("ididi is a palidrone? {}", is_palindrone("ididi"));
+    
+
 }
 //This is a comment
 fn get_fibonnaci_value_by_index(i : i32) -> i32 {
