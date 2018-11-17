@@ -10,6 +10,7 @@ fn main() {
 //This is a comment
 fn get_fibonnaci_value_by_index(i : i32) -> i32 {
     if i == 0 || i == 1 {
+        //always return 1 here. Just a comment to test git
         return 1;
     } 
     return get_fibonnaci_value_by_index(i - 1) + get_fibonnaci_value_by_index(i - 2);
